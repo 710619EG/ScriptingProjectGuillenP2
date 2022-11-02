@@ -217,8 +217,11 @@ GameObject:
   m_Component:
   - component: {fileID: 892706061}
   - component: {fileID: 892706060}
+  - component: {fileID: 892706062}
+  - component: {fileID: 892706063}
+  - component: {fileID: 892706064}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Loops object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -251,6 +254,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &892706062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892706059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe52e9147a494a540bbc2bc2ce0a68ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &892706063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892706059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f694c56eb347ec14f96660dcbb2d972a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &892706064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892706059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6484962ca4d97540bef2477d93657dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1769953874
 GameObject:
   m_ObjectHideFlags: 0
