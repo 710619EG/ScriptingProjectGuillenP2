@@ -8,7 +8,7 @@ public class ScopeAndAccessModifiers : MonoBehaviour
     public int alpha = 5;
     //Creates a variable and sets a value to that variable. But, only any void in the class the variable is in can use or modify that variable
     private int beta = 0;
-    private int gtamma = 5;
+    private int gamma = 5;
 
     private AnotherClass myOtherClass;
 
