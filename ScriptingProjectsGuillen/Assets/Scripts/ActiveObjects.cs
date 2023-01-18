@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class ActiveObjects : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        gameObject.SetAvctive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        gameObject.SetActive(false);
     }
 }
+
