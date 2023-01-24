@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class TranslateAndRotate : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
     public float moveSpeed = 10f;
     public float turnSpeed = 50f;
     // Update is called once per frame
