@@ -15,6 +15,8 @@ public class ScopeAndAccessModifiers : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gamma = 12;
+        beta = 10;
         alpha = 29;
         myOtherClass = new AnotherClass();
         myOtherClass.FruitMachine(alpha, myOtherClass.apples);
@@ -29,5 +31,7 @@ public class ScopeAndAccessModifiers : MonoBehaviour
     void Update()
     {
         Debug.Log("Alpha is set to: " + alpha);
+        Debug.Log("Beta is set to: " + beta);
+        Debug.Log("Gamma is set to: " + gamma);
     }
 }
